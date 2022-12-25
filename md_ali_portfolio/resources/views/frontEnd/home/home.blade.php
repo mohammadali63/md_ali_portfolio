@@ -1343,25 +1343,25 @@
                     <div class="form-message">
                         <p></p>
                     </div>
-                    <form class="row g-3" id="fungi-contact" method="POST" action="https://ethemestudio.com/demo/fungi/1_main/php/form-handler.php">
+                    <form class="row g-3"  method="POST" action="{{route('save.message')}}">
                         @csrf
                         <div class="col-md-6">
                             <div class="input-group mb-3">
-                                <label for="inputName" class="form-label visually-hidden">Name</label>
-                                <input type="text" class="form-control" id="inputName" placeholder="Name*" name="username" required>
+                                <label  class="form-label visually-hidden">Name</label>
+                                <input type="text" class="form-control"  placeholder="Name*" name="username" required>
                             </div>
                         </div>
                         <div class="col-md-6">
 
                             <div class="input-group mb-3">
-                                <label for="inputEmail" class="form-label visually-hidden">Email</label>
-                                <input type="email" class="form-control" id="inputEmail" name="useremail" placeholder="Email*" required>
+                                <label  class="form-label visually-hidden">Email</label>
+                                <input type="email" class="form-control"  name="useremail" placeholder="Email*" required>
                             </div>
 
                         </div>
                         <div class="col-md-12">
-                            <label for="inputMessage" class="form-label visually-hidden">Message</label>
-                            <textarea class="form-control mb-3" id="inputMessage" name="usermessage" placeholder="Your message here*" required></textarea>
+                            <label  class="form-label visually-hidden">Message</label>
+                            <textarea class="form-control mb-3"  name="usermessage" placeholder="Your message here*" required></textarea>
                             <button type="submit" class="btn btn-main" name="submit">Send Message</button>
                         </div>
                     </form> <!-- .row -->

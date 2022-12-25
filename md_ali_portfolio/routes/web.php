@@ -19,7 +19,7 @@ use App\Http\Controllers\DashboardController;
 //    return view('welcome');
 //});
 Route::get('/',[WebController::class,'index'])->name('home');
-Route::get('/save-message',[WebController::class,'saveMessage'])->name('save.message');
+Route::post('/save-message',[WebController::class,'saveMessage'])->name('save.message');
 
 
 

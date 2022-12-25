@@ -15,6 +15,6 @@ class WebController extends Controller
     public function saveMessage(Request $request)
     {
         Message::saveMessage($request);
-        return back();
+        return redirect(route('home'));
     }
 }
