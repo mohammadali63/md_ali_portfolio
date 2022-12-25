@@ -1313,21 +1313,21 @@
                     <div class="icon-box"><i class="pe-7s-map-marker"></i></div>
                     <div class="content-wrapper">
                         <h4>Address</h4>
-                        <address>Kathal Bagan, Dhanmondi, Dhaka</address>
+                        <address>Kathal Bagan, Home:-18, Dhanmondi, Dhaka</address>
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex justify-content-xxl-center align-items-xl-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
                     <div class="icon-box"><i class="pe-7s-call"></i></div>
                     <div class="content-wrapper">
                         <h4>Phone</h4>
-                        <a href="#">+880 18465 50244</a>
+                        <a href="#">01834874059</a>
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex justify-content-xxl-center align-items-xl-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
                     <div class="icon-box"><i class="pe-7s-mail"></i></div>
                     <div class="content-wrapper">
                         <h4>Email</h4>
-                        <a href="#">shakahossain201@gmail.com</a>
+                        <a href="#">taheralinur@gmail.com</a>
                     </div>
                 </div>
             </div> <!-- .row -->
@@ -1335,7 +1335,7 @@
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
                     <div class="map-wrapper" id="mapwrapper">
-
+                        <img class="img-fluid" src="{{asset('frontEndAsset')}}/assets/image/location.png" alt="hero main image" style="height: 430px;  border-radius: 15px">
                     </div>
                 </div>
                 <div class="col-lg-6 form-block" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100">
@@ -1344,23 +1344,24 @@
                         <p></p>
                     </div>
                     <form class="row g-3" id="fungi-contact" method="POST" action="https://ethemestudio.com/demo/fungi/1_main/php/form-handler.php">
+                        @csrf
                         <div class="col-md-6">
                             <div class="input-group mb-3">
                                 <label for="inputName" class="form-label visually-hidden">Name</label>
-                                <input type="text" class="form-control" id="inputName" placeholder="Name*" name="inputName" required>
+                                <input type="text" class="form-control" id="inputName" placeholder="Name*" name="username" required>
                             </div>
                         </div>
                         <div class="col-md-6">
 
                             <div class="input-group mb-3">
                                 <label for="inputEmail" class="form-label visually-hidden">Email</label>
-                                <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email*" required>
+                                <input type="email" class="form-control" id="inputEmail" name="useremail" placeholder="Email*" required>
                             </div>
 
                         </div>
                         <div class="col-md-12">
                             <label for="inputMessage" class="form-label visually-hidden">Message</label>
-                            <textarea class="form-control mb-3" id="inputMessage" name="inputMessage" placeholder="Your message here*" required></textarea>
+                            <textarea class="form-control mb-3" id="inputMessage" name="usermessage" placeholder="Your message here*" required></textarea>
                             <button type="submit" class="btn btn-main" name="submit">Send Message</button>
                         </div>
                     </form> <!-- .row -->
