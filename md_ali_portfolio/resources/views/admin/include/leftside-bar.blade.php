@@ -7,10 +7,10 @@
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Dashboards">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-dashboards" type="button"><i class="bi bi-house-door-fill"></i></button>
             </li>
-            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Application">
+            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="LOGO">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-application" type="button"><i class="bi bi-grid-fill"></i></button>
             </li>
-            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Widgets">
+            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Menu">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-widgets" type="button"><i class="bi bi-briefcase-fill"></i></button>
             </li>
             <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="eCommerce">
@@ -101,11 +101,11 @@
                 <div class="list-group list-group-flush">
                     <div class="list-group-item">
                         <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-0">Widgets</h5>
+                            <h5 class="mb-0">Menu</h5>
                         </div>
-                        <small class="mb-0">Some placeholder content</small>
+                        <small class="mb-0">Menu content</small>
                     </div>
-                    <a href="widgets-static-widgets.html" class="list-group-item"><i class="bi bi-box"></i>Static Widgets</a>
+                    <a href="{{route('add.menu')}}" class="list-group-item"><i class="bi bi-box"></i>Create Menu</a>
                     <a href="widgets-data-widgets.html" class="list-group-item"><i class="bi bi-bar-chart"></i>Data Widgets</a>
                 </div>
             </div>

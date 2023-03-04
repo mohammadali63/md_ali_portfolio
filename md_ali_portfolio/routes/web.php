@@ -5,6 +5,7 @@ use App\Http\Controllers\WebController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\LogoController;
+use App\Http\Controllers\MenuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +37,5 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified']
     Route::post('/save-logo',[LogoController::class,'saveLogo'])->name('save.logo');
 
     Route::get('/menu',[MenuController::class, 'addMenu'])->name('add.menu');
+    Route::post('/save/menu',[MenuController::class,'saveMenu'])->name('save.menu');
 });

@@ -9,9 +9,11 @@
             @endforeach
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-lg-0">
+                    @foreach($menus as $menu)
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#site-header">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#{{$menu->href}}">{{$menu->menuname}}</a>
                     </li>
+                    @endforeach
 {{--                    <li class="nav-item">--}}
 {{--                        <a class="nav-link" href="#about-section">About</a>--}}
 {{--                    </li>--}}

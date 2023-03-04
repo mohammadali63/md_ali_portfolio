@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Addportfolio;
 use App\Models\category;
 use App\Models\Logo;
+use App\Models\Menu;
 use App\Models\Message;
 use Illuminate\Http\Request;
 
@@ -15,7 +16,8 @@ class WebController extends Controller
         return view('frontEnd.home.home'
             ,[
                 'portfolios'=>Addportfolio::where('status',1)->get(),
-                'logos'=>Logo::all()
+                'logos'=>Logo::all(),
+                'menus'=>Menu::where('status',1)->get(),
             ]);
     }
     public function saveMessage(Request $request)
