@@ -2,16 +2,16 @@
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 text-center branding-block">
-                <a class="footer-brand" href="#"><img src="{{asset('frontEndAsset')}}/assets/image/Picsart_22-12-25_03-31-20-574.png" alt="Pori logo"></a>
+                <a class="footer-brand" href="#"><img src="{{asset('frontEndAsset')}}/assets/image/alilogo.png" alt="Pori logo"></a>
                 <p>
                     Kilaboris nisi ut aliquip ex ea commodo consequat uis aute cupidatat non proident sunt in culd est laborum.
                 </p>
                 <ul class="list-inline footer-social">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100047412540043&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100047412540043&mibextid=ZbWKwL"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100047412540043&mibextid=ZbWKwL"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100047412540043&mibextid=ZbWKwL"><i class="fab fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100047412540043&mibextid=ZbWKwL"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
 
@@ -19,7 +19,7 @@
         <div class="back-to-top"><a href="#site-header"><i class="bi bi-box-arrow-up"></i></a></div>
         <div class="row footer-bottom">
             <div class="col-md-6">
-                <p>All rights reserved &copy; 2022 <strong>ShakaStudio</strong></p>
+                <p>All rights reserved &copy; 2022 <strong>MD.Ali</strong></p>
             </div>
             <div class="col-md-6">
                 <ul class="list-inline text-md-end">

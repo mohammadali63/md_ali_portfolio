@@ -78,15 +78,23 @@
                 <div class="list-group list-group-flush">
                     <div class="list-group-item">
                         <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-0">Logo</h5>
+                        </div>
+                    </div>
+                    <a class="nav-link" href="{{route('logo.protfolio')}}">Add Logo</a>
+                    <a class="nav-link" href="{{route('add.portfolio')}}">portfolio</a>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-application">
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item">
+                        <div class="d-flex w-100 justify-content-between">
                             <h5 class="mb-0">Application</h5>
                         </div>
                         <small class="mb-0">Some placeholder content</small>
                     </div>
-                    <a href="app-emailbox.html" class="list-group-item"><i class="bi bi-envelope"></i>Email</a>
-                    <a href="app-chat-box.html" class="list-group-item"><i class="bi bi-chat-left-text"></i>Chat Box</a>
-                    <a href="app-file-manager.html" class="list-group-item"><i class="bi bi-archive"></i>File Manager</a>
-                    <a href="app-to-do.html" class="list-group-item"><i class="bi bi-check2-square"></i>Todo List</a>
-                    <a href="app-invoice.html" class="list-group-item"><i class="bi bi-receipt"></i>Invoice</a>
+                    <a class="nav-link" href="{{route('manage.message')}}">Manage Message</a>
+                    <a class="nav-link" href="{{route('add.portfolio')}}">portfolio</a>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-widgets">

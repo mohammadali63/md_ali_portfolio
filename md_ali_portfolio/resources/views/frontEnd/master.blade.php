@@ -10,7 +10,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{asset('frontEndAsset')}}/assets/image/Picsart_22-12-25_03-34-16-506.png" type="{{asset('frontEndAsset')}}/assets/image/x-icon">
-    <link rel="icon" href="{{asset('frontEndAsset')}}/assets/image/Picsart_22-12-25_03-34-16-506.png" type="{{asset('frontEndAsset')}}/assets/image/x-icon">
+    <link rel="icon" href="{{asset('frontEndAsset')}}/assets/image/alilogo.png" type="{{asset('frontEndAsset')}}/assets/image/x-icon">
 
     <!-- Icons -->
     <link rel="stylesheet" type="text/css" href="{{asset('frontEndAsset')}}/assets/css/pe-icon-7-stroke.css">

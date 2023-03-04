@@ -1,7 +1,7 @@
 <header class="site-header" id="site-header">
     <nav class="navbar navbar-expand-xl" id="site-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img class="img-fluid" src="{{asset('frontEndAsset')}}/assets/image/Picsart_22-12-25_03-31-20-574.png" alt="fungi logo" ></a>
+            <a class="navbar-brand" href="index.html"><img class="img-fluid" src="{{asset('frontEndAsset')}}/assets/image/alilogo.png" alt="fungi logo" ></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
             </button>
