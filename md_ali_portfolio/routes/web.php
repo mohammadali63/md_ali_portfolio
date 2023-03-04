@@ -34,4 +34,6 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified']
 
     Route::get('/logo',[LogoController::class,'addLogo'])->name('logo.protfolio');
     Route::post('/save-logo',[LogoController::class,'saveLogo'])->name('save.logo');
+
+    Route::get('/menu',[MenuController::class, 'addMenu'])->name('add.menu');
 });

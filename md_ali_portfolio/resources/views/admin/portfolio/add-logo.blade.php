@@ -9,10 +9,10 @@
                             <div class="card shadow-lg border-0 rounded-lg mt-5">
                                 <div class="card-header"><h3 class="text-center font-weight-light my-4">Create Logo</h3></div>
                                 <div class="card-body">
-                                    <form action="" method="" enctype="multipart/form-data">
+                                    <form action="{{route('save.logo')}}" method="post" enctype="multipart/form-data">
                                         @csrf
                                         <div class="form-floating mb-3">
-                                            <input type="file" name="image" class="form-control" />
+                                            <input type="file" name="logoimage" class="form-control" />
                                         </div>
 
                                         <div class="mt-3">
